@@ -1,0 +1,11 @@
+{
+    "name": "1Reset",
+    "version": "1.0rc1",
+    "main": "reset.styl",
+    "author": "Ali Mihandoost",
+    "ignore": [
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "component.json",
+    ]
+}
