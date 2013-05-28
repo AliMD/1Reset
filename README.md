@@ -16,7 +16,7 @@ A 1Devs Reset makes browsers render all elements more consistently and in line w
 
 #### Use in stylus
 Download and import `1reset.styl` in your stylus project
-```stylus
+```css
   @import '1reset.styl'
 ```
 
