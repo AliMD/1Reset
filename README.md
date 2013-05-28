@@ -1,8 +1,7 @@
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
 [changelog]: ./blob/master/CHANGELOG.md "1Net Change log"
 [contribute]: ./blob/master/CONTRIBUTING.md "How to contribute"
-[license]: ./blob/master/LICENSE.md "MIT License"
-sdfdfd
+
 ## 1Net
 A 1Devs professional front-end template for building faster and better web apps or sites with latest web technology.  
 
