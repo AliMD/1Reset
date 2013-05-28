@@ -1,4 +1,4 @@
-[home]: http:http://github.com/AliMD/1Reset "Normalize stylus edition (Usable in HTML5 Boilerplate and Bootstrap)"
+[home]: http://github.com/AliMD/1Reset "Normalize stylus edition (Usable in HTML5 Boilerplate and Bootstrap)"
 [issues]: http://github.com/AliMD/1Reset/issues "Issues · AliMD/1Reset"
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
 
