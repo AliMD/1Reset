@@ -29,6 +29,12 @@ You can use our public cdn.
 ```html
   <link rel="stylesheet" href="http://alimd.github.io/libs/1reset/1.0rc1/1reset.css" type="text/css" />
 ```
+### Browser support
+* Google Chrome  
+* Mozilla Firefox 4+  
+* Apple Safari 5+  
+* Opera 12+  
+* Internet Explorer 8+  
 
 #### Old browser support.
 For old browser support (ie6+) use `1reset_ie6.css` or `1reset_ie6.styl`
