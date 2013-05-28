@@ -1,16 +1,16 @@
-[home]: http:http://github.com/AliMD/1Net "Professional front-end template"
-[issues]: http://github.com/AliMD/1Net/issues "Issues · AliMD/1Net"
+[home]: http:http://github.com/AliMD/1Reset "Normalize stylus edition (Usable in HTML5 Boilerplate and Bootstrap)"
+[issues]: http://github.com/AliMD/1Reset/issues "Issues · AliMD/1Reset"
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
 
 ## Contributing
-**♥** [this][home] project and want to get involved ?  
+**♥** [this][home] project and want to get involved?  
 Thanks! There are plenty of ways you can help!  
 
 ### Report issues
-Check project and report your issue [here][issues]  
+Check the project and report your issue [here][issues]  
 
 1. **Report your Idea**  
-  If you have a any idea about design, programming, technology and other, please open an issue.
+  If you have any idea about design, programming, technology and ..., please open an issue.
   
 1. **Ask any question**  
   If you're one of my students and want to upgrade your skills, you can ask any question.  
@@ -30,7 +30,7 @@ help. They should remain focused in scope and avoid containing unrelated commits
 If your contribution involves a significant amount of work or substantial
 changes to any part of the project, please open an issue to discuss it first.  
 
-#### Usefull helps
+#### Useful helps
 * [Fork A Repo](http://help.github.com/articles/fork-a-repo)
 * [Using Pull Requests](http://help.github.com/articles/using-pull-requests)
 * [Syncing A Fork](http://help.github.com/articles/syncing-a-fork)
@@ -38,4 +38,4 @@ changes to any part of the project, please open an issue to discuss it first.
 * [Git Book](http://git-scm.com/book)
 
 ### Help and support
-Please ask any questions about web technologies [here][support]
+If you have any other questions about web technologies ask [here][support]
