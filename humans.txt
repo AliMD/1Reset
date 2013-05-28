@@ -1,6 +1,6 @@
 /* TEAM */
 
-  Founder: Ali Mihandoost
+  Author: Ali Mihandoost
   Site: http://ali.md
   Twitter: @AliMihandoost
   Github: AliMD
@@ -18,8 +18,8 @@
 
 /* SITE */
 
-Standards: HTML5, CSS3, Javascript, Stylus
+Standards: CSS, Stylus
 
-Components: Modernizr, jQuery, Html5shiv, 1Styles, Alibs
+Components: Normalize
 
-Source: http://github.com/AliMD/1Net
+Source: http://github.com/AliMD/1Reset
