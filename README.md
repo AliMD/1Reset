@@ -1,6 +1,6 @@
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
-[changelog]: ./blob/master/CHANGELOG.md "1Reset Change log"
-[contribute]: ./blob/master/CONTRIBUTING.md "How to contribute"
+[changelog]: ./CHANGELOG.md "1Reset Change log"
+[contribute]: ./CONTRIBUTING.md "How to contribute"
 
 ## 1Reset
 A 1Devs Reset makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.  
