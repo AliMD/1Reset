@@ -17,17 +17,17 @@ A 1Devs Reset makes browsers render all elements more consistently and in line w
 #### Use in stylus
 Download and import `1reset.styl` in your stylus project
 ```css
-  @import '1reset.styl'
+@import '1reset.styl'
 ```
 
 #### Use CSS version as a separate file
 Use 1reset before other styles.  
 ```html
-  <link rel="stylesheet" href="1reset.css" type="text/css" />
+<link rel="stylesheet" href="1reset.css" type="text/css" />
 ```
 You can use our public cdn.  
 ```html
-  <link rel="stylesheet" href="http://alimd.github.io/libs/1reset/1.0rc1/1reset.css" type="text/css" />
+<link rel="stylesheet" href="http://alimd.github.io/libs/1reset/1.0rc1/1reset.css" type="text/css" />
 ```
 ### Browser support
 * Google Chrome  
