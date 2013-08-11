@@ -27,7 +27,7 @@ Use 1reset before other styles.
 ```
 You can use our public cdn.  
 ```html
-<link rel="stylesheet" href="http://alimd.github.io/libs/1reset/1.0rc1/1reset.css" type="text/css" />
+<link rel="stylesheet" href="http://alimd.github.io/libs/1reset/1.0/1reset.css" type="text/css" />
 ```
 ### Browser support
 * Google Chrome  
