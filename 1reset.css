@@ -1,136 +1,13 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-option {
-  padding-left: 0.4em;
-}
-select {
-  padding: 1px;
-}
-* html body * {
-  overflow: visible;
-}
-body {
-  font-size: 100.01%;
-  background: #fff;
-  color: #000;
-  text-align: left;
-  line-height: 1;
-}
-div {
-  outline: 0 none;
-}
-ol,
-ul,
-menu {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: none;
-}
-html {
-  font-family: sans-serif;
-  text-size-adjust: 100%;
-}
-html,
-button,
-input,
-select,
-textarea {
-  font-family: sans-serif;
-}
+/* 
+ * 1Reset
+ * A 1Devs Reset makes browsers render all elements more consistently and in line with modern standards.
+ * It precisely targets only the styles that need normalizing.
+ *
+ * http://ali.md/1reset
+ * License: 1Reset by Ali Mihandoost is licensed under a Creative Commons Attribution 3.0 Unported License.
+ * Based on normalize.css, EricMeyer and HTML5Doctor css reset
+ *
+ */
 article,
 aside,
 details,
@@ -139,6 +16,7 @@ figure,
 footer,
 header,
 hgroup,
+main,
 nav,
 section,
 summary {
@@ -148,8 +26,6 @@ audio,
 canvas,
 video {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
 }
 audio:not([controls]) {
   display: none;
@@ -157,6 +33,14 @@ audio:not([controls]) {
 }
 [hidden] {
   display: none;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
 }
 a:focus {
   outline: thin dotted;
@@ -169,26 +53,6 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0;
-}
-h3 {
-  font-size: 1.17em;
-  margin: 1em 0;
-}
-h4 {
-  font-size: 1em;
-  margin: 1.33em 0;
-}
-h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0;
-}
-h6 {
-  font-size: 0.75em;
-  margin: 2.33em 0;
-}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -199,6 +63,11 @@ strong {
 dfn {
   font-style: italic;
 }
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
 mark {
   background: #ff0;
   color: #000;
@@ -208,23 +77,13 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
   font-size: 1em;
 }
 pre {
-  white-space: pre;
   white-space: pre-wrap;
-  word-wrap: break-word;
-}
-p,
-pre {
-  margin: 1em 0;
 }
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
-}
-blockquote {
-  margin: 1em 40px;
 }
 small {
   font-size: 80%;
@@ -242,28 +101,8 @@ sup {
 sub {
   bottom: -0.25em;
 }
-dl,
-menu,
-ol,
-ul {
-  margin: 1em 0;
-}
-dd {
-  margin: 0 0 0 40px;
-}
-menu,
-ol,
-ul {
-  padding: 0 0 0 40px;
-}
-nav ul,
-nav ol {
-  list-style: none;
-  list-style-image: none;
-}
 img {
   border: 0;
-  -ms-interpolation-mode: bicubic;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -279,48 +118,48 @@ fieldset {
 legend {
   border: 0;
   padding: 0;
-  white-space: normal;
-  *margin-left: -7px;
 }
 button,
 input,
 select,
 textarea {
   font-family: inherit;
+  font-size: 100%;
   margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle;
 }
 button,
 input {
   line-height: normal;
 }
 button,
+select {
+  text-transform: none;
+}
+button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  appearance: button;
+  -webkit-appearance: button;
   cursor: pointer;
-  *overflow: visible;
 }
 button[disabled],
-input[disabled] {
+html input[disabled] {
   cursor: default;
 }
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
-  *height: 13px;
-  *width: 13px;
 }
 input[type="search"] {
-  appearance: textfield;
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  appearance: none;
+  -webkit-appearance: none;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -335,47 +174,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html,
-button,
-input,
-select,
-textarea {
-  color: #222;
-}
-body {
-  font-size: 1em;
-  line-height: 1.4;
-}
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-img {
-  vertical-align: middle;
-}
-textarea {
-  resize: vertical;
-}
 html[lang|=en] {
   direction: ltr;
   text-align: left;
-  font-family: 'Ubuntu', sans-serif;
 }
 html[lang|=fa],
 html[lang|=ar] {
   direction: rtl;
   text-align: right;
-  font-family: badr;
+  font-family: 'B Nazanin', nazanin, Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
