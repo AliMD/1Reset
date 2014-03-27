@@ -1,6 +1,6 @@
 {
     "name": "1Reset",
-    "version": "3.0",
+    "version": "2.0",
     "author": "Ali Mihandoost",
     "description": "Normalize stylus edition (Usable in HTML5 Boilerplate and Bootstrap)",
     "keywords": ["1reset", "reset", "normalize","stylus"],
