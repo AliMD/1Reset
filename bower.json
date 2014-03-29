@@ -1,16 +1,27 @@
 {
-  "name": "1Reset",
-  "version": "3.0",
-  "author": "Ali Mihandoost",
-  "description": "Normalize stylus edition (Usable in HTML5 Boilerplate and Bootstrap)",
-  "keywords": ["1reset", "reset", "normalize","stylus"],
-  "license": "Creative Commons Attribution 3.0",
+  "name": "1reset",
+  "version": "2.0.1",
+  "homepage": "http://ali.md/1reset",
+  "authors": [
+    "Ali Mihandoost"
+  ],
+  "description": "A Simple CSS Reset and Normalize System for The One Developers <1Devs/>",
+  "main": "1reset.css",
+  "keywords": [
+    "1resets",
+    "1reset",
+    "resets",
+    "reset",
+    "css",
+    "stylus",
+    "1devs",
+    "alimd",
+    "ali",
+    "mihandoost"
+  ],
+  "license": "MIT",
   "ignore": [
-    "CHANGELOG.md",
-    "CONTRIBUTING.md",
-    "component.json",
-    ".gitignore",
-    "component.json",
-    "package.json"
+    "**/.*",
+    "node_modules"
   ]
 }
