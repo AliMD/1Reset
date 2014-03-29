@@ -1,13 +1,4 @@
-/* 
- * 1Reset v2.0
- * A 1Devs Reset makes browsers render all elements more consistently and in line with modern standards.
- * It precisely targets only the styles that need normalizing.
- *
- * http://ali.md/1reset
- * License: 1Reset by Ali Mihandoost is licensed under a Creative Commons Attribution 3.0 Unported License.
- * Based on normalize.css, EricMeyer and HTML5Doctor css reset
- *
- */
+/* 1Reset v2.0.1 | http://alimd.mit-license.org/ | http://ali.md/1reset */
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
