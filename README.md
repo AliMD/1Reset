@@ -1,66 +1,58 @@
-[support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
-[changelog]: ./CHANGELOG.md "1Reset Change log"
-[contribute]: ./CONTRIBUTING.md "How to contribute"
-
-## 1Reset
-A 1Devs Reset makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.  
+## 1Reset v3.0
+1Reset is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.
 
 ### Feature
 * Preserves useful defaults, unlike many CSS resets.  
 * Normalizes styles for a wide range of elements.  
 * Corrects bugs and common browser inconsistencies.  
 * Improves usability with subtle improvements.  
-* Explains what code does using detailed comments.    
+* Explains what code does using detailed comments.
 
-### How to use
-
-#### Use in stylus
-Download and import `1reset.styl` in your stylus project
-```css
-@import '1reset.styl'
-```
-
-#### Use CSS version as a separate file
-Use 1reset before other styles.  
-```html
-<link rel="stylesheet" href="1reset.css" type="text/css" />
-```
-You can use our public cdn.  
-```html
-<link rel="stylesheet" href="http://alimd.github.io/libs/1reset/1.0/1reset.css" type="text/css" />
-```
 ### Browser support
-* Google Chrome  
-* Mozilla Firefox 4+  
-* Apple Safari 5+  
-* Opera 12+  
-* Internet Explorer 8+  
+* Chrome 4+
+* Firefox 4+
+* Safari 5+
+* Opera 11+
+* Edge 15+
+* Internet Explorer 8+
 
-#### Old browser support.
-For old browser support (ie6+) use `1reset_ie6.css` or `1reset_ie6.styl`
+### Download and use
 
-### TECHNOLOGY
-* [CSS](http://ali.md/css4)
-* [Stylus](http://ali.md/stylus)
-* [Normalize](http://ali.md/normalize)
-* [Alimd cdn](http://ali.md/libs)
+#### Public cdn.  
+For use on production websites with **any amount of traffic**. Files are served via [MaxCDN](http://www.maxcdn.com/)'s super fast global CDN.  
+```html
+<link href="http://cdn.rawgit.com/AliMD/1Reset/v3.0.0/dist/1reset.css" type="text/css" rel="stylesheet" />
+```
 
-### Change Log
-Check [CHANGELOG.md][changelog]  
+For **dev/testing** latest version with **low-traffic** use the following link. Please **don't** use it on production websites.  
+```html
+<link href="http://rawgit.com/AliMD/1Reset/master/dist/1reset.css" type="text/css" rel="stylesheet" />
+```
+
+#### Bower
+```shell
+bower install 1Reset
+```
+
+#### NPM
+```shell
+npm install 1Reset
+```
+
+#### Sass
+import `1Reset` folder in your sass project
+```scss
+// grid_num = 12
+@import '1Reset/'
+```
 
 ### Contributing
 **♥** this project and want to get involved ?  
 Thanks! There are plenty of ways you can help!  
-Check [CONTRIBUTING.md][contribute]
+Check [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ### Help and support
-Please ask any questions about web technologies [here][support]
-
-### A 1Devs Project
-Supported by <b>The<i>One</i>Developers.</b>
+Please ask any questions about web technologies [here](http://github.com/AliMD/1Tuts/issues).
 
 ### License
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">1Reset</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ali.md/" property="cc:attributionName" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/necolas/normalize.css" rel="dct:source">https://github.com/necolas/normalize.css</a>.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/AliMD/1reset/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+The MIT License (MIT) [alimd.mit-license.org](http://alimd.mit-license.org)
