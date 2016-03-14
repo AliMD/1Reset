@@ -1,0 +1,31 @@
+{
+  "name": "1reset",
+  "version": "3.0.0",
+  "description": "1Reset is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliMD/1Reset.git"
+  },
+  "keywords": [
+    "1resets",
+    "1reset",
+    "resets",
+    "reset",
+    "css",
+    "stylus",
+    "1devs",
+    "alimd",
+    "ali",
+    "mihandoost"
+  ],
+  "author": "Ali Mihandoost <i@ali.md> (http://ali.md/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AliMD/1Reset/issues"
+  },
+  "homepage": "http://alimd.github.io/1Reset"
+}
