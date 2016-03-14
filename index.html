@@ -1,145 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>..:: 1Reset ::..</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <script src="javascripts/respond.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <style type="text/css">
-      nav {
-        display: none;
-      }
-    </style>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <title>1Reset v3.0 by AliMD</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a target="_blank" href="http://github.com/AliMD/1Reset">View On GitHub</a></li>
-          <li class="downloads"><a target="_blank" href="http://github.com/AliMD/1Reset/zipball/master">ZIP</a></li>
-          <li class="downloads"><a target="_blank" href="http://github.com/AliMD/1Reset/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <header>
+      <div class="inner">
+        <h1>1Reset v3.0</h1>
+        <h2>Customisable CSS file that makes browsers render all elements more consistently.</h2>
+        <a href="https://github.com/AliMD/1Reset" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-    <div class="wrapper">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>1Reset is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.</p>
 
-      <section>
-        <div id="title">
-          <h1>1Reset</h1>
-          <p><big>Normalize stylus edition</big><br />Usable in HTML5 Boilerplate and Bootstrap</p>
-          <hr>
-          <span class="credits left">Project maintained by <a target="_blank" href="http://github.com/AliMD" title="Ali Mihandoost">Ali.MD</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by mattgraham</span>
-        </div>
+<h2>
+<a id="feature" class="anchor" href="#feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feature</h2>
 
-        <h2>1Reset</h2>
+<ul>
+<li>Preserves useful defaults, unlike many CSS resets.<br>
+</li>
+<li>Normalizes styles for a wide range of elements.<br>
+</li>
+<li>Corrects bugs and common browser inconsistencies.<br>
+</li>
+<li>Improves usability with subtle improvements.<br>
+</li>
+<li>Explains what code does using detailed comments.</li>
+</ul>
 
-        <p>A 1Devs Reset makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.  </p>
+<h2>
+<a id="browser-support" class="anchor" href="#browser-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Browser support</h2>
 
-        <h3>Feature</h3>
+<ul>
+<li>Chrome 4+</li>
+<li>Firefox 4+</li>
+<li>Safari 5+</li>
+<li>Opera 11+</li>
+<li>Edge 15+</li>
+<li>Internet Explorer 8+</li>
+</ul>
 
-        <ul>
-        <li>Preserves useful defaults, unlike many CSS resets.<br>
-        </li>
-        <li>Normalizes styles for a wide range of elements.<br>
-        </li>
-        <li>Corrects bugs and common browser inconsistencies.<br>
-        </li>
-        <li>Improves usability with subtle improvements.<br>
-        </li>
-        <li>Explains what code does using detailed comments.<br>
-        </li>
-        </ul><h3>How to use</h3>
+<h2>
+<a id="download-and-use" class="anchor" href="#download-and-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Download and use</h2>
 
-        <h4>Use in stylus</h4>
+<h3>
+<a id="public-cdn" class="anchor" href="#public-cdn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Public cdn.</h3>
 
-        <p>Download and import <code>1reset.styl</code> in your stylus project</p>
+<p>For use on production websites with <strong>any amount of traffic</strong>. Files are served via <a href="http://www.maxcdn.com/">MaxCDN</a>'s super fast global CDN.  </p>
 
-        <div class="highlight"><pre><span class="k">@import</span> <span class="s1">'1reset.styl'</span>
-        </pre></div>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cdn.rawgit.com/AliMD/1Reset/v3.0.0/dist/1reset.css<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> /&gt;</pre></div>
 
-        <h4>Use CSS version as a separate file</h4>
+<p>For <strong>dev/testing</strong> latest version with <strong>low-traffic</strong> use the following link. Please <strong>don't</strong> use it on production websites.  </p>
 
-        <p>Use 1reset before other styles.  </p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>http://rawgit.com/AliMD/1Reset/master/dist/1reset.css<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> /&gt;</pre></div>
 
-        <div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"1reset.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="nt">/&gt;</span>
-        </pre></div>
+<h3>
+<a id="bower" class="anchor" href="#bower" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bower</h3>
 
-        <p>You can use our public cdn.  </p>
+<div class="highlight highlight-source-shell"><pre>bower install 1reset</pre></div>
 
-        <div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"http://alimd.github.io/libs/1reset/2.0/1reset.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="nt">/&gt;</span>
-        </pre></div>
+<h3>
+<a id="npm" class="anchor" href="#npm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NPM</h3>
 
-        <h3>Browser support</h3>
+<div class="highlight highlight-source-shell"><pre>npm install 1reset</pre></div>
 
-        <ul>
-        <li>Google Chrome<br>
-        </li>
-        <li>Mozilla Firefox 4+<br>
-        </li>
-        <li>Apple Safari 5+<br>
-        </li>
-        <li>Opera 12+<br>
-        </li>
-        <li>Internet Explorer 8+<br>
-        </li>
-        </ul><h4>Old browser support.</h4>
+<h3>
+<a id="sass" class="anchor" href="#sass" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sass</h3>
 
-        <p>For old browser support (ie6+) use <code>1reset_ie6.css</code> or <code>1reset_ie6.styl</code></p>
+<p>import <code>1Reset</code> folder in your sass project</p>
 
-        <h3>TECHNOLOGY</h3>
+<div class="highlight highlight-source-scss"><pre><span class="pl-k">@import</span> '<span class="pl-v">1Reset/</span>'</pre></div>
 
-        <ul>
-        <li><a target="_blank" href="http://ali.md/css4">CSS</a></li>
-        <li><a target="_blank" href="http://ali.md/stylus">Stylus</a></li>
-        <li><a target="_blank" href="http://ali.md/normalize">Normalize</a></li>
-        <li><a target="_blank" href="http://ali.md/libs">Alimd cdn</a></li>
-        </ul><h3>Change Log</h3>
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
 
-        <p>Check <a target="_blank" href="http://github.com/AliMD/1Reset/blob/master/CHANGELOG.md" title="1Reset Change log">CHANGELOG.md</a>  </p>
+<p><strong>♥</strong> this project and want to get involved ?<br>
+Thanks! There are plenty of ways you can help!<br>
+Check <a href="./CONTRIBUTING.md">CONTRIBUTING.md</a></p>
 
-        <h3>Contributing</h3>
+<h2>
+<a id="help-and-support" class="anchor" href="#help-and-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Help and support</h2>
 
-        <p><strong>♥</strong> this project and want to get involved ?<br>
-        Thanks! There are plenty of ways you can help!<br>
-        Check <a target="_blank" href="http://github.com/AliMD/1Reset/blob/master/CONTRIBUTING.md" title="How to contribute">CONTRIBUTING.md</a></p>
+<p>Please ask any questions about web technologies <a href="http://github.com/AliMD/1Tuts/issues">here</a>.</p>
 
-        <h3>Help and support</h3>
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
 
-        <p>Please ask any questions about web technologies <a target="_blank" href="http://github.com/AliMD/1Tuts/issues" title="http://ali.md/ask">here</a></p>
+<p>The MIT License (MIT) <a href="http://alimd.mit-license.org">alimd.mit-license.org</a></p>
+        </section>
 
-        <h3>A 1Devs Project</h3>
+        <aside id="sidebar">
+          <a href="https://github.com/AliMD/1Reset/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/AliMD/1Reset/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-        <p>Supported by <b>The<i>One</i>Developers.</b></p>
+          <p class="repo-owner"><a href="https://github.com/AliMD/1Reset"></a> is maintained by <a href="https://github.com/AliMD">AliMD</a>.</p>
 
-        <h3>License</h3>
-
-        <p class="license"><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/3.0/88x31.png"></a><br>1Reset by <a target="_blank" href="http://ali.md/" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.<br>Based on a work at <a target="_blank" href="http://github.com/necolas/normalize.css" rel="dct:source"></a><a target="_blank" href="http://github.com/necolas/normalize.css">http://github.com/necolas/normalize.css</a>.</p>
-      </section>
-
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-    <!-- Piwik --> 
-    <script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://a.1dws.com/" : "http://a.1dws.com/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script><script type="text/javascript">
-    try {
-    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-    piwikTracker.trackPageView();
-    piwikTracker.enableLinkTracking();
-    } catch( err ) {}
-    </script><noscript><p><img src="http://a.1dws.com/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Code -->
-    
+
+  
   </body>
 </html>
