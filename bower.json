@@ -1,12 +1,11 @@
 {
   "name": "1reset",
-  "version": "2.0.1",
-  "homepage": "http://ali.md/1reset",
+  "description": "1Reset is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.",
+  "main": "index.scss",
   "authors": [
-    "Ali Mihandoost"
+    "Ali Mihandoost <i@ali.md> (http://ali.md/)"
   ],
-  "description": "A Simple CSS Reset and Normalize System for The One Developers <1Devs/>",
-  "main": "1reset.css",
+  "license": "MIT",
   "keywords": [
     "1resets",
     "1reset",
@@ -19,9 +18,13 @@
     "ali",
     "mihandoost"
   ],
-  "license": "MIT",
+  "homepage": "http://alimd.github.io/1Reset",
+  "moduleType": [],
   "ignore": [
     "**/.*",
-    "node_modules"
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ]
 }
