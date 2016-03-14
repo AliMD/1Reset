@@ -31,18 +31,17 @@ For **dev/testing** latest version with **low-traffic** use the following link. 
 
 #### Bower
 ```shell
-bower install 1Reset
+bower install 1reset
 ```
 
 #### NPM
 ```shell
-npm install 1Reset
+npm install 1reset
 ```
 
 #### Sass
 import `1Reset` folder in your sass project
 ```scss
-// grid_num = 12
 @import '1Reset/'
 ```
 
